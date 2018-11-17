@@ -18,6 +18,8 @@ $(document).ready(function () {
     var peru = [];
     var uruguay = [];
     var venezuela = [];
+    var gdp_ecuador = [];
+    
 
 
 
@@ -35,20 +37,22 @@ $(document).ready(function () {
 
                 xCat.push(data[i].year);
                 console.log(xCat);
-                //gdp_data.push(data[i].gdp);
-                // console.log(gdp_data);
+                argentina.push(data[i].Argentina); // building an array for each year for each country
+                bolivia.push(data[i].Bolivia);
+                brazil.push(data[i].Brazil);
+                chile.push(data[i].Chile);
+                colombia.push(data[i].Colombia);
+                ecuador.push(data[i].Ecuador);
+                paraguay.push(data[i].Paraguay);
+                peru.push(data[i].Peru);
+                uruguay.push(data[i].Uruguay);
+                venezuela.push(data[i].Venezuela);
 
-                argentina.push(data[i].argentina);
-                //console.log(argentina);
-                bolivia.push(data[i].bolivia);
-                brazil.push(data[i].brazil);
-                chile.push(data[i].chile);
-                colombia.push(data[i].colombia);
-                ecuador.push(data[i].ecuador);
-                paraguay.push(data[i].paraguay);
-                peru.push(data[i].peru);
-                uruguay.push(data[i].uruguay);
-                venezuela.push(data[i].venezuela);
+                //building an array for each GDP of each country
+
+                gdp_ecuador.push(data[i].gdp_ecuador);
+                console.log('array for ecuador gdp');
+                console.log(gdp_ecuador);
             }
             // console.log(gdp);
             //Call the function that builds the chart
@@ -64,16 +68,21 @@ $(document).ready(function () {
                 type: 'line'
             },
             title: {
-                text: 'Poverty rate in South America'
+                text: 'Poverty Rate in South America'
             },
             subtitle: {
                 text: 'Source: World Bank Data Poverty Rate'
             },
             xAxis: {
-                categories: gdp_data
+                cathegories : xCat,
+                title: {
+                    text: 'Year'
+                }
             },
             yAxis: {
-                title: 'Poverty Rate'
+                title: {
+                    text: 'GDP: Gross Domestic Product'
+                }
             },
             plotOptions: {
                 line: {
@@ -88,6 +97,9 @@ $(document).ready(function () {
                     },
                     pointStart: 1987
                 }
+            },
+            toolTip: {
+                valueSuffix: '$'
             },
             series: [
                 {
