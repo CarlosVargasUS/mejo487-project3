@@ -6,9 +6,8 @@ $(document).ready(function () {
     //var urlArray = [url, url2];
     var data = [];
     var xCat = [];
-    var years = [];
-    var gdp_numbers = [];
-    var outerArray = [];
+    var year = [];
+    var gdp_data = [];
     var argentina = [];
     var bolivia = [];
     var brazil = [];
@@ -35,7 +34,12 @@ $(document).ready(function () {
             for (i = 0; i < data.length; ++i) {
 
                 xCat.push(data[i].year);
+                console.log(xCat);
+                //gdp_data.push(data[i].gdp);
+                // console.log(gdp_data);
+
                 argentina.push(data[i].argentina);
+                //console.log(argentina);
                 bolivia.push(data[i].bolivia);
                 brazil.push(data[i].brazil);
                 chile.push(data[i].chile);
@@ -46,13 +50,13 @@ $(document).ready(function () {
                 uruguay.push(data[i].uruguay);
                 venezuela.push(data[i].venezuela);
             }
-
+            // console.log(gdp);
             //Call the function that builds the chart
             buildChart();
         }
     });//close AJAX call
 
-    console.log(xCat);
+    //  console.log(xCat);
 
     function buildChart() {
         var myChart = Highcharts.chart('poverty_rate', {
@@ -65,10 +69,19 @@ $(document).ready(function () {
             subtitle: {
                 text: 'Source: World Bank Data Poverty Rate'
             },
+            xAxis: {
+                categories: gdp_data
+            },
             yAxis: {
                 title: 'Poverty Rate'
             },
             plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    enableMouseTracking: true
+                },
                 series: {
                     label: {
                         connectorAllowed: false
@@ -84,6 +97,38 @@ $(document).ready(function () {
                 {
                     name: 'Bolivia',
                     data: bolivia
+                },
+                {
+                    name: 'Brazil',
+                    data: brazil
+                },
+                {
+                    name: 'Chile',
+                    data: chile
+                },
+                {
+                    name: 'Colombia',
+                    data: colombia
+                },
+                {
+                    name: 'Ecuador',
+                    data: ecuador
+                },
+                {
+                    name: 'Paraguay',
+                    data: paraguay
+                },
+                {
+                    name: 'Peru',
+                    data: peru
+                },
+                {
+                    name: 'Uruguay',
+                    data: uruguay
+                },
+                {
+                    name: "Venezuela",
+                    data: venezuela
                 }
             ]
         });
