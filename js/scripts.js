@@ -172,18 +172,18 @@ $(document).ready(function () {
         //YOU MUST ADD A WRAPPER OF SQUIGLY BRACKETS & 'DATA:' TO THE JSON FILE
         "columns": [ //TELL DATABALES WHAT KEYS YOU WANT TO USE FOR YOUR COLUMNS
             { "data": "country-region" },//YOU CAN USE TWO-WORD JSON KEYS WITHOUT BRACKET NOTATION!
-            { "data": "1950-1955" },
+            //{ "data": "1950-1955" },
             //{ "data": "1955-1960" },
-            { "data": "1960-1965" },
+            //{ "data": "1960-1965" },
             //{ "data": "1965-1970" },
             { "data": "1970-1975" },
             //{ "data": "1975-1980" },
             { "data": "1980-1985" },
             //{ "data": "1985-1990"},
             { "data": "1990-1995" },
-            // { "data": "1995-2000"},
+            { "data": "1995-2000"},
             { "data": "2000-2005" },
-            //{ "data": "2005-2010" },
+            { "data": "2005-2010" },
             { "data": "2010-2015" }
 
         ],
