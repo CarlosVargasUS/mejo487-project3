@@ -1,7 +1,7 @@
 [
   {
     "data_source": "World Development Indicators",
-    "Year": "country_code",
+    "year": "country_code",
     "Argentina": "ARG",
     "Bolivia": "BOL",
     "Brazil": "BRA",
@@ -15,7 +15,7 @@
   },
   {
     "data_source": "",
-    "Year": 1987,
+    "year": 1987,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -29,7 +29,7 @@
   },
   {
     "data_source": "",
-    "Year": 1988,
+    "year": 1988,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -43,7 +43,7 @@
   },
   {
     "data_source": "",
-    "Year": 1989,
+    "year": 1989,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -57,7 +57,7 @@
   },
   {
     "data_source": "",
-    "Year": 1990,
+    "year": 1990,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -71,7 +71,7 @@
   },
   {
     "data_source": "",
-    "Year": 1991,
+    "year": 1991,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -85,7 +85,7 @@
   },
   {
     "data_source": "",
-    "Year": 1992,
+    "year": 1992,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -99,7 +99,7 @@
   },
   {
     "data_source": "",
-    "Year": 1993,
+    "year": 1993,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -113,7 +113,7 @@
   },
   {
     "data_source": "",
-    "Year": 1994,
+    "year": 1994,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -127,7 +127,7 @@
   },
   {
     "data_source": "",
-    "Year": 1995,
+    "year": 1995,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -141,7 +141,7 @@
   },
   {
     "data_source": "",
-    "Year": 1996,
+    "year": 1996,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -155,7 +155,7 @@
   },
   {
     "data_source": "",
-    "Year": 1997,
+    "year": 1997,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -169,7 +169,7 @@
   },
   {
     "data_source": "",
-    "Year": 1998,
+    "year": 1998,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -183,7 +183,7 @@
   },
   {
     "data_source": "",
-    "Year": 1999,
+    "year": 1999,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -197,7 +197,7 @@
   },
   {
     "data_source": "",
-    "Year": 2000,
+    "year": 2000,
     "Argentina": 0,
     "Bolivia": 66.4,
     "Brazil": 0,
@@ -211,7 +211,7 @@
   },
   {
     "data_source": "",
-    "Year": 2001,
+    "year": 2001,
     "Argentina": 0,
     "Bolivia": 63.1,
     "Brazil": 24.7,
@@ -225,7 +225,7 @@
   },
   {
     "data_source": "",
-    "Year": 2002,
+    "year": 2002,
     "Argentina": 0,
     "Bolivia": 63.3,
     "Brazil": 23.3,
@@ -239,7 +239,7 @@
   },
   {
     "data_source": "",
-    "Year": 2003,
+    "year": 2003,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 24.9,
@@ -253,7 +253,7 @@
   },
   {
     "data_source": "",
-    "Year": 2004,
+    "year": 2004,
     "Argentina": 0,
     "Bolivia": 63.1,
     "Brazil": 22.4,
@@ -267,7 +267,7 @@
   },
   {
     "data_source": "",
-    "Year": 2005,
+    "year": 2005,
     "Argentina": 0,
     "Bolivia": 59.6,
     "Brazil": 21,
@@ -281,7 +281,7 @@
   },
   {
     "data_source": "",
-    "Year": 2006,
+    "year": 2006,
     "Argentina": 0,
     "Bolivia": 59.9,
     "Brazil": 17.3,
@@ -295,7 +295,7 @@
   },
   {
     "data_source": "",
-    "Year": 2007,
+    "year": 2007,
     "Argentina": 0,
     "Bolivia": 60.1,
     "Brazil": 16.1,
@@ -309,7 +309,7 @@
   },
   {
     "data_source": "",
-    "Year": 2008,
+    "year": 2008,
     "Argentina": 0,
     "Bolivia": 57.3,
     "Brazil": 14.1,
@@ -323,7 +323,7 @@
   },
   {
     "data_source": "",
-    "Year": 2009,
+    "year": 2009,
     "Argentina": 0,
     "Bolivia": 51.3,
     "Brazil": 13.3,
@@ -337,7 +337,7 @@
   },
   {
     "data_source": "",
-    "Year": 2010,
+    "year": 2010,
     "Argentina": 0,
     "Bolivia": 0,
     "Brazil": 0,
@@ -351,7 +351,7 @@
   },
   {
     "data_source": "",
-    "Year": 2011,
+    "year": 2011,
     "Argentina": 0,
     "Bolivia": 45.1,
     "Brazil": 11.1,
@@ -365,7 +365,7 @@
   },
   {
     "data_source": "",
-    "Year": 2012,
+    "year": 2012,
     "Argentina": 0,
     "Bolivia": 43.3,
     "Brazil": 9,
@@ -379,7 +379,7 @@
   },
   {
     "data_source": "",
-    "Year": 2013,
+    "year": 2013,
     "Argentina": 0,
     "Bolivia": 38.9,
     "Brazil": 8.9,
@@ -393,7 +393,7 @@
   },
   {
     "data_source": "",
-    "Year": 2014,
+    "year": 2014,
     "Argentina": 0,
     "Bolivia": 39.1,
     "Brazil": 7.4,
@@ -407,7 +407,7 @@
   },
   {
     "data_source": "",
-    "Year": 2015,
+    "year": 2015,
     "Argentina": 0,
     "Bolivia": 38.6,
     "Brazil": 8.7,
@@ -421,7 +421,7 @@
   },
   {
     "data_source": "",
-    "Year": 2016,
+    "year": 2016,
     "Argentina": 30.3,
     "Bolivia": 39.5,
     "Brazil": 0,
@@ -435,7 +435,7 @@
   },
   {
     "data_source": "",
-    "Year": 2017,
+    "year": 2017,
     "Argentina": 25.7,
     "Bolivia": 0,
     "Brazil": 0,
