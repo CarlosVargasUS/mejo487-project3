@@ -162,7 +162,7 @@ $(document).ready(function () {
 
 
     $('#migration-table').DataTable({
-        "ajax": "/js/table.txt",//MAKE THE AJAX CALL ON AN OBJECT; NOTE THE PATH
+        "ajax": "js/table.txt",//MAKE THE AJAX CALL ON AN OBJECT; NOTE THE PATH
         //YOU MUST ADD A WRAPPER OF SQUIGLY BRACKETS & 'DATA:' TO THE JSON FILE
         "columns": [ //TELL DATABALES WHAT KEYS YOU WANT TO USE FOR YOUR COLUMNS
             { "data": "country-region" },//YOU CAN USE TWO-WORD JSON KEYS WITHOUT BRACKET NOTATION!
