@@ -77,8 +77,12 @@ body{
     margin-top: 5%;
   }
 
-  #article-article{
+  #article-title{
     font-size: calc(21px + 2.5vw);
+    border-color:gray;
+    border-bottom: solid 1px;
+    padding-bottom: 3%;
+    padding-top: 2%;
   }
   #wapo-logo{
     max-width: 300px;
