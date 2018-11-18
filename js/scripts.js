@@ -83,7 +83,7 @@ $(document).ready(function () {
                     label: {
                         connectorAllowed: false
                     },
-                    pointStart: 1987
+                    pointStart: 2000
                 }
             },
             toolTip: {
