@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-    console.log("This B is reaadyy!");
 
     var url = 'js/south_american_poverty_rate.json';
     //var urlArray = [url, url2];
