@@ -140,7 +140,7 @@ $(document).ready(function () {
                 guide: {
                     x: { label: 'year' },  // custom label for X axis
                     y: { label: 'gdp' },    // custom label for Y axis
-                    //padding: { b: 90, l: 40, t: 10, r: 10 }  // chart paddings
+                    padding: { b: 40, l: 40, t: 10, r: 10 }  // chart paddings
                 },
 
                 data: gdp,
@@ -148,11 +148,6 @@ $(document).ready(function () {
                 x: 'year',
                 y: 'gdp',
                 color: 'Gross Domestic Product',
-                size: {
-                    func: 'linear',
-                    minSize: 1960,
-                    maxSize: 2017
-                },
                 plugins: [
                     Taucharts.api.plugins.get('tooltip')({
                         fields: ['country_name', 'year', 'gdp']
