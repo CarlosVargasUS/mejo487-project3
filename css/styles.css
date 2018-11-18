@@ -38,7 +38,7 @@ body{
     font-weight: 700;
   }
   .container{
-    padding: 0% 15%;
+    padding: 0% 1%;
   }
   .text{
     padding-top: 3%;
@@ -48,9 +48,17 @@ body{
   
   /* ----- Header ----*/
   
+  #section-name, #author{
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-weight: 700;
+    color: #1955a5;
+  }
+
   .custom-header{
   background-color: black;
   padding-top: 1%;
+  font-size: 12px;
+
   }
   
   #custom-header-tag{
@@ -67,6 +75,10 @@ body{
   
   .title{
     margin-top: 5%;
+  }
+
+  #article-article{
+    font-size: calc(21px + 2.5vw);
   }
   #wapo-logo{
     max-width: 300px;
